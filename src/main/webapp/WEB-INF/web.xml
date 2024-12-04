@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Spin4</display-name>
+ <servlet>
+    <servlet-name>RegUser</servlet-name>
+    <servlet-class>com.example.RegUser</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>RegUser</servlet-name>
+    <url-pattern>/RegUser</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+    <servlet-name>userservlet</servlet-name>
+    <servlet-class>Com.userservlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>userservlet</servlet-name>
+    <url-pattern>/user3</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+    <servlet-name>WithdrawServlet</servlet-name>
+    <servlet-class>Com.WithdrawServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>WithdrawServlet</servlet-name>
+    <url-pattern>/withdraw</url-pattern>
+</servlet-mapping>
+
+</web-app>
